@@ -1,1 +1,1 @@
-# Generalized-Plant-Leaf-Disease-Recognition-GzMPDD-
+# Generalized-Plant-Leaf-Disease-Recognition-GzMPDD
