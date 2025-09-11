@@ -6,6 +6,6 @@ This project was developed as a group effort. Special thanks to the following te
 
 - Samiul Haque Azmi (https://github.com/Sami0137) – Project / Team Lead - Designing, Training (on Device), Testing, Programming, Research, Annotation
 - Vinayak Sharma (https://github.com/LyNx-ViNaYaK-2005) - Designing , Training (on Online Compilers), Testing, Programming, Research, Annotation
-- Preksha Agarwal () – Documentation, Model Testing Program, Annotation, Research, Training 
+- Preksha Agarwal (https://github.com/preksha-15) – Documentation, Model Testing Program, Annotation, Research, Training 
 - Priya (https://github.com/Priya430136) – Documentation, Annotation, Research, Training  
 - Shorya Dixit (https://github.com/Shorya11) – Documentation, Annotation, Research, Training 
