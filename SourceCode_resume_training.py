@@ -4,13 +4,13 @@ import os
 
 
 # Path to your dataset's YAML configuration file
-DATA_YAML = r"C:\\Users\\VIT\\Desktop\\xyz\\annotated_dataset_roboflow\\data.yaml"  # Dataset YAML path
+DATA_YAML = r"PATH TO DATASET's YAML FILE \\data.yaml"  # Dataset YAML path
 
 # Path to the folder where the model from the previous run is saved
-PREVIOUS_WEIGHTS_PATH = r"C:\\Users\\VIT\\Desktop\\Model_saved\\best.pt"  # Update with the actual path of your previously trained model
+PREVIOUS_WEIGHTS_PATH = r"PATH TO THE PREVIOUSLY TRAINED MODEL \\best.pt"  # Update with the actual path of your previously trained model
 
 # Path to save the updated weights and logs for this training session
-SAVE_FOLDER = r"C:\\Users\\VIT\\Desktop\\Resumed_Model_saved" # Update this if needed
+SAVE_FOLDER = r"PATH TO SAVE THE UPDATED MODEL \\Resumed_Model_saved" # Update this if needed
 
 # Step 2: Resume Training YOLOv8 Model
 def resume_training():
@@ -35,5 +35,6 @@ def resume_training():
 if __name__ == "__main__":
     # Run the resumed training
     resume_training()
+
 
 
