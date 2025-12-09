@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 
 # Path to save the trained model weights
-MODEL_SAVE_PATH = r"C:\\Users\\asus\\Desktop\\PLUTO\\Lockheed\\runs\\detect\\Fox_Alpha_18\\weights\\best.pt"
+MODEL_SAVE_PATH = r"PATH TO THE TRAINED MODEL WEIGHTS \\best.pt"
 
 # Running Inference
 def infer_yolov8(input_image_path):
@@ -30,5 +30,6 @@ def infer_yolov8(input_image_path):
 
 # Performing inference
 if __name__ == "__main__":
-    INPUT_IMAGE_PATH = r"C:\\Users\\asus\\Desktop\\7262-drought.jpg"
+    INPUT_IMAGE_PATH = r"PATH TO IMAGE \\Apple_leaf_image.jpg" # Path of Test Image
+
     infer_yolov8(INPUT_IMAGE_PATH)
