@@ -3,7 +3,7 @@ import cv2
 import os
 
 # Path to your dataset's YAML configuration file
-DATA_YAML = r"C:\\Users\\VIT\\Desktop\\xyz\\annotated_dataset_roboflow\\data.yaml"
+DATA_YAML = r"PATH TO DATASET's YAML FILE \\data.yaml"
 
 
 
@@ -11,10 +11,10 @@ DATA_YAML = r"C:\\Users\\VIT\\Desktop\\xyz\\annotated_dataset_roboflow\\data.yam
 # Training the YOLOv8 Model
 def train_yolov8():
 
-    save_folder = r"C:\\Users\\VIT\\Desktop\\Model_saved"
+    save_folder = r"PATH OF FOLDER TO SAVE MODEL \\Model_saved"
     
     # Path to save the trained model weights
-    MODEL_SAVE_PATH = os.path.join(save_folder, "best.pt")
+    MODEL_SAVE_PATH = os.path.join(save_folder, "best.pt") #name of the trained model weights file-"best.pt"
 
 
     # Initialize a YOLOv8 model with pre-trained weights (Nano version)
@@ -36,4 +36,5 @@ def train_yolov8():
 if __name__ == "__main__":
     
     train_yolov8()
+
     
