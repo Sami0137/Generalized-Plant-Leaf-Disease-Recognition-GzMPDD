@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import classification_report
 
 # File path to your results CSV
-log_path = r"C:\\Users\\VIT\\Desktop\\Model_Result_File\\results246.csv"
+log_path = r"PATH TO TRAINING REPORT CSV FILE \\results246.csv"
 
 # Loading the CSV file
 data = pd.read_csv(log_path)
@@ -69,4 +69,5 @@ plt.legend()
 
 # Adjusting layout and show plot
 plt.tight_layout()
+
 plt.show()
